@@ -19,7 +19,7 @@ sudo docker start prediction-ui
 
 sudo docker start prediction-api
 
-If there are no containers, then start them test
+If there are no containers, then start them testtest
 
 sudo docker run -p  5000:5000 -v /home/indika_kuma/models:/usr/src/myapp/models -d --name=prediction-api indikakumara/prediction-api:0.0.1
 
